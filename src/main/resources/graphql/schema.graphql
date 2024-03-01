@@ -1,0 +1,11 @@
+type Query{
+    getAllEtudiantsHandler: [Etudiant]
+}
+
+type Etudiant{
+    id: ID!
+    nom: String!
+    prenom: String!
+    adresse: String!
+    telephone: String!
+}
